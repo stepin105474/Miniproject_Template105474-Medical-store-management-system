@@ -1,16 +1,16 @@
 # Name of the project
-PROJECT_NAME = Calculator
+PROJECT_NAME = medicstore_management
 
 # Output directory
 BUILD = build
 
 # All source code files
 SRC = project_main.c\
-src/calculator_operations.c\
+src/medicstore_management.c\
 
 # All test source files
 TEST_SRC = src/calculator_operations.c\
-test/test_calculator_operations.c
+test/test_medicstore_management.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
@@ -19,8 +19,6 @@ INC	= -Iinc
 
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
-# Document files
-DOCUMENTATION_OUTPUT = documentation/html
 
 # Default target built
 $(PROJECT_NAME):all
@@ -35,9 +33,6 @@ all: $(SRC) $(BUILD)
 run:$(PROJECT_NAME)
 	./$(PROJECT_OUTPUT).out
 
-# Document the code using Doxygen
-doc:
-	make -C ./documentation
 
 # Build and run the unit tests
 test:$(BUILD)
