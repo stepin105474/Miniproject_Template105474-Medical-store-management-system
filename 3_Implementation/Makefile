@@ -9,7 +9,7 @@ SRC = project_main.c\
 src/medicstore_management.c\
 
 # All test source files
-TEST_SRC = src/calculator_operations.c\
+TEST_SRC = src/medicstore_management.c\
 test/test_medicstore_management.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
