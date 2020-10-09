@@ -3,7 +3,7 @@
 
 /* Modify these two lines according to the project */
 #include <medicstore_management.h>
-#define PROJECT_NAME    "medical store management system"
+#define PROJECT_NAME    "medicalstoremanagement"
 
 /* Prototypes for all the test functions */
 void test_add(void);
