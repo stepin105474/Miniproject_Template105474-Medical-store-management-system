@@ -1,3 +1,3 @@
-#Structure Diagrams
+# Structure Diagrams
  
-##Add all the Structure Diagrams implemented
+## Add all the Structure Diagrams implemented
