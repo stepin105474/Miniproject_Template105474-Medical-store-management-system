@@ -1,6 +1,7 @@
-Requirements
-Capture all the requirements wrt system, module, interface, integration, testing, Functional and Non-functional
+# Requirements
 
-Captures Basic Planning of the project through - Sample Gantt Chart attached
+* Capture all the requirements wrt system, module, interface, integration, testing, Functional and Non-functional
 
-Tools: MS Excel, MS word or Similar
+* Captures Basic Planning of the project through - Sample Gantt Chart attached
+
+* Tools: MS Excel, MS word or Similar
