@@ -83,7 +83,6 @@ int n=0;
    {   
     int i=0,iter;
     char delname[50];
-    char nullStr[20] = {"\0"};
     printf("Enter Medicine Name to be deleted\n");
     scanf("%s",delname);
     for(i=0;i<n;i++)
