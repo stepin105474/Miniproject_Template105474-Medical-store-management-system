@@ -1,4 +1,4 @@
-Behavior Diagrams
+#Behavior Diagrams
  
  
-Add all the Behavior diagrams implememted
+##Add all the Behavior diagrams implememted
