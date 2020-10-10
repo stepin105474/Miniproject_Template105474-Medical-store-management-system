@@ -6,10 +6,10 @@
 #include<stdlib.h>
 
 
-void addentry(struct);
+int addentry(struct);
 
-void display(struct);
+int display(struct);
 
-void deleteentry(struct);
+int deleteentry(struct);
 
 #endif  
