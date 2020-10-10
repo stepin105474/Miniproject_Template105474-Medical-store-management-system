@@ -1,10 +1,10 @@
 #ifndef MEDICSTORE_MANAGEMENT_H
 #define MEDICSTORE_MANAGEMENT_H
 
-void addentry(struct);
+void addentry();
 
-void display(struct);
+void display();
 
-void deleteentry(struct);
+void deleteentry();
 
 #endif  
