@@ -11,7 +11,7 @@ struct medicine
 
 int n=0;
 
- int main()
+ void main()
 {
    //int i=0,n,iter;
    char operatorchoice;
@@ -40,7 +40,7 @@ int n=0;
        }
        if(operatorchoice=='E')
        {
-           return 0;
+           return;
        }
    }
 }
