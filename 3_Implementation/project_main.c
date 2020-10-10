@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include<string.h>
+#include<stdlib.h>
 #include<medicstore_management.h>
 
 struct medicine
@@ -8,7 +11,7 @@ struct medicine
 
 int n=0;
 
- void main()
+ int main()
 {
    //int i=0,n,iter;
    char operatorchoice;
@@ -37,7 +40,7 @@ int n=0;
        }
        if(operatorchoice=='E')
        {
-           return;
+           return 0;
        }
    }
 }
