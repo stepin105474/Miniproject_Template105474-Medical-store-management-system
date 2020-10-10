@@ -6,10 +6,10 @@
 #include<stdlib.h>
 
 
-void addentry();
+void addentry(struct medicine m[]);
 
-void display();
+void display(struct medicine m[]);
 
-void deleteentry();
+void deleteentry(struct medicine m[]);
 
 #endif  
