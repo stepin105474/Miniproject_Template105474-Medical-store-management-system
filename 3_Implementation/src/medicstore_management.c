@@ -1,4 +1,5 @@
 #include "medicstore_management.h"
+#include<string.h>
 
 struct medicine
 {
