@@ -7,7 +7,7 @@ struct medicine
 }m[100];
 int n=0;
 
-void addentry(struct medicine m[])
+void addentry()
    {
        
         n++;
@@ -23,7 +23,7 @@ void addentry(struct medicine m[])
         scanf("%s",m[n-1].exp_date);
    }
 //displaying function
-   void display(struct medicine m[])
+   void display()
    {
     int i=0;
     printf("=================================================================================\n");
@@ -40,7 +40,7 @@ void addentry(struct medicine m[])
     }
    }
 //deleting function
-    void deleteentry(struct medicine m[])
+    void deleteentry()
    {   
     int i=0,iter;
     char delname[50];
