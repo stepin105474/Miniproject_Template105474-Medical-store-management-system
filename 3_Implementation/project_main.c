@@ -3,12 +3,6 @@
 #include <stdlib.h>
 #include "medicstore_management.h"
 
-struct medicine
-{
-    int price,stock;
-    char name[50],mfg_date[12],exp_date[12];
-}m[100];
-
 int n=0;
 
  void main()
@@ -28,15 +22,15 @@ int n=0;
        scanf("%s",&operatorchoice);
        if(operatorchoice=='A')
        {
-           addentry(m);
+           addentry(struct medicine m[]);
        }
        if(operatorchoice=='P')
        {
-           display(m);
+           display(struct medicine m[]);
        }
        if(operatorchoice=='D')
        {
-           deleteentry(m);
+           deleteentry(struct medicine m[]);
        }
        if(operatorchoice=='E')
        {
