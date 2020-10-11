@@ -4,6 +4,7 @@
  void main()
 {
    //int i=0,n,iter;
+  struct medicine m[100];
    char operatorchoice;
    //char delname[20];
    while(operatorchoice!='E')
