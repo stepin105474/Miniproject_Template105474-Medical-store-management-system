@@ -33,7 +33,7 @@ void addentry(struct medicine m[])
         printf("Medicine Manufactured Date:%s\n",m[i].mfg_date);
         printf("Medicine Expiry Date:%s\n\n",m[i].exp_date);
     }
-   }
+   } 
 //deleting function
     void deleteentry(struct medicine m[])
    {   
