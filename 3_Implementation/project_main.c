@@ -22,15 +22,15 @@ int n=0;
        scanf("%s",&operatorchoice);
        if(operatorchoice=='A')
        {
-           addentry(struct medicine m[]);
+           addentry(m[]);
        }
        if(operatorchoice=='P')
        {
-           display(struct medicine m[]);
+           display(m[]);
        }
        if(operatorchoice=='D')
        {
-           deleteentry(struct medicine m[]);
+           deleteentry(m[]);
        }
        if(operatorchoice=='E')
        {
