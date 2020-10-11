@@ -1,6 +1,6 @@
 # Name of the project
 PROJECT_NAME = medicalstoremanagement
-
+ 
 # Output directory
 BUILD = build
 
