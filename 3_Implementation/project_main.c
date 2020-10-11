@@ -1,9 +1,5 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 #include "medicstore_management.h"
 
-int n=0;
 
  void main()
 {
