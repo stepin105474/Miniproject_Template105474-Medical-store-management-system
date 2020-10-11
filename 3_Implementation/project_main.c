@@ -17,15 +17,15 @@
        scanf("%s",&operatorchoice);
        if(operatorchoice=='A')
        {
-           addentry();
+           addentry(m);
        }
        if(operatorchoice=='P')
        {
-           display();
+           display(m);
        }
        if(operatorchoice=='D')
        {
-           deleteentry();
+           deleteentry(m);
        }
        if(operatorchoice=='E')
        {
