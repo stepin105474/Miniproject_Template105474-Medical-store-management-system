@@ -5,10 +5,10 @@
 #include<string.h>
 #include<stdlib.h>
 
-void addentry(struct medicine m[]);
+void addentry(struct);
 
-void display(struct medicine m[]);
+void display(struct);
 
-void deleteentry(struct medicine m[]);
+void deleteentry(struct);
 
 #endif  
