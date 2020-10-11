@@ -1,10 +1,5 @@
 #include <medicstore_management.h>
 
-struct medicine
-{
-    int price,stock;
-    char name[50],mfg_date[12],exp_date[12];
-}
 int n=0;
 
 void addentry(struct medicine m[])
