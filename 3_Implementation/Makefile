@@ -8,6 +8,12 @@ BUILD = build
 SRC = project_main.c\
 src/medicstore_management.c\
 
+# All test source files
+TEST_SRC = src/medicstore_management.c\
+test/test_medicstore_management.c
+
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+
 # All include folders with header files
 INC	= -Iinc
 
@@ -25,6 +31,11 @@ all: $(SRC) $(BUILD)
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
 	./$(PROJECT_OUTPUT).out
+	
+# Build and run the unit tests
+test:$(BUILD)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
+	./$(TEST_OUTPUT)
 
 # Remove all the built files, invoke by `make clean`
 clean:
