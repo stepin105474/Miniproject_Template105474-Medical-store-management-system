@@ -6,9 +6,9 @@
 #define PROJECT_NAME    "Medical_store_management_system"
 
 /* Prototypes for all the test functions */
-void test_addentry(void);
-void test_display(void);
-void test_deleteentry(void);
+//void test_addentry(void);
+//void test_display(void);
+//void test_deleteentry(void);
 
 /* Start of the application test */
 int main() {
