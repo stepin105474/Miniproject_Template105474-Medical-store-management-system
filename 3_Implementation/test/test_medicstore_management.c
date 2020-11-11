@@ -2,7 +2,7 @@
 #include <CUnit/CUnit.h>
 
 /* Modify these two lines according to the project */
-#include <medistore_management.h>
+#include <medicstore_management.h>
 #define PROJECT_NAME    "Medical_store_management_system"
 
 /* Prototypes for all the test functions */
