@@ -21,9 +21,9 @@ int main() {
   
   
   /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "add entry", test_addentry);
-  CU_add_test(suite, "display", test_display);
-  CU_add_test(suite, "delete entry", test_deleteentry);
+  //CU_add_test(suite, "add entry", test_addentry);
+  //CU_add_test(suite, "display", test_display);
+  //CU_add_test(suite, "delete entry", test_deleteentry);
 
 
 /* Note: Do not edit START*/
