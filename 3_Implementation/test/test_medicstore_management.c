@@ -40,10 +40,12 @@ int main() {
 }
 
 /* Write all the test functions */ 
+/*
 void test_addentry(void) {
   CU_ASSERT(30 == addentry(10, 20));
   
-  /* Dummy fail*/
+ /* Dummy fail*/
+/*
   CU_ASSERT(1500 == addentry(750, 7500));
 }
 
@@ -51,6 +53,7 @@ void test_display(void) {
   CU_ASSERT(-3 == display(0, 3));
   
   /* Dummy fail*/
+/*
   CU_ASSERT(1 == display(1000, 900));
 }
 
@@ -58,7 +61,9 @@ void test_deleteentry(void) {
   CU_ASSERT(0 == deleteentry(1, 0));
   
   /* Dummy fail*/
+/*
   CU_ASSERT(2 == deleteentry(2, 5));
 }
 
+*/
 
