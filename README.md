@@ -9,3 +9,5 @@ This project plays a major role in saving the time of medical store operator for
 
 
 ![Unit testing](https://github.com/deepaksahoocvr/104363_STEPin/workflows/Unit%20testing/badge.svg)
+
+![C/C++ CI](https://github.com/stepin105474/Miniproject_Template105474-Medical-store-management-system/blob/master/.github/workflows/build.yml)
