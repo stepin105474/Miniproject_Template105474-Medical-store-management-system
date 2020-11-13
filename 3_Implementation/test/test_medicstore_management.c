@@ -6,9 +6,9 @@
 #define PROJECT_NAME    "Medical_store_management_system"
 
 /* Prototypes for all the test functions */
-//void test_addentry(void);
-//void test_display(void);
-//void test_deleteentry(void);
+void test_addentry(void);
+void test_display(void);
+void test_deleteentry(void);
 
 /* Start of the application test */
 int main() {
@@ -21,9 +21,9 @@ int main() {
   
   
   /* Add your test functions in this format for testing*/
-  //CU_add_test(suite, "add entry", test_addentry);
-  //CU_add_test(suite, "display", test_display);
-  //CU_add_test(suite, "delete entry", test_deleteentry);
+  CU_add_test(suite, "add entry", test_addentry);
+  CU_add_test(suite, "display", test_display);
+  CU_add_test(suite, "delete entry", test_deleteentry);
 
 
 /* Note: Do not edit START*/
@@ -40,30 +40,25 @@ int main() {
 }
 
 /* Write all the test functions */ 
-/*
 void test_addentry(void) {
-  CU_ASSERT(30 == addentry(10, 20));
+  CU_ASSERT(a == addentry(a));
   
  /* Dummy fail*/
-/*
-  CU_ASSERT(1500 == addentry(750, 7500));
+  CU_ASSERT(a == addentry(a));
 }
 
 void test_display(void) {
-  CU_ASSERT(-3 == display(0, 3));
+  CU_ASSERT(a == display(a,1));
   
   /* Dummy fail*/
-/*
-  CU_ASSERT(1 == display(1000, 900));
+  CU_ASSERT(1 == display(a,1));
 }
 
 void test_deleteentry(void) {
-  CU_ASSERT(0 == deleteentry(1, 0));
+  CU_ASSERT(0 == deleteentry(a,2));
   
   /* Dummy fail*/
-/*
-  CU_ASSERT(2 == deleteentry(2, 5));
+  CU_ASSERT(2 == deleteentry(c,4));
 }
 
-*/
 
