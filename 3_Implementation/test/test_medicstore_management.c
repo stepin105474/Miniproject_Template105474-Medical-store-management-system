@@ -41,24 +41,24 @@ int main() {
 
 /* Write all the test functions */ 
 void test_addentry(void) {
-  CU_ASSERT(a == addentry(a));
+  CU_ASSERT(0 == addentry(uttej,100,5,12dec,15dec));
   
  /* Dummy fail*/
-  CU_ASSERT(a == addentry(a));
+  CU_ASSERT(1 == addentry(uttej,100,5,12dec,15dec));
 }
 
-void test_display(void) {
+/*void test_display(void) {
   CU_ASSERT(a == display(a,1));
   
-  /* Dummy fail*/
+  /* Dummy fail
   CU_ASSERT(1 == display(a,1));
-}
+}*/
 
-void test_deleteentry(void) {
+/*void test_deleteentry(void) {
   CU_ASSERT(0 == deleteentry(a,2));
   
-  /* Dummy fail*/
+  /* Dummy fail
   CU_ASSERT(2 == deleteentry(c,4));
-}
+}*/
 
 
