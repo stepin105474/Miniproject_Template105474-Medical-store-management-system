@@ -39,26 +39,42 @@ int main() {
   return 0;
 }
 
-/* Write all the test functions */ 
+struct medicine
+{
+    int price,stock;
+    char name[50],mfg_date[12],exp_date[12];
+}m[100];
+struct returned_struct = {1,1,a,1,1};
+struct expected_struct = {2,2,b,2,2};
+
+test_struct(expected_struc,returned_struct)
+{
+  TEST_ASSERT_EQUAL(expected_struct.price,returned_struct.price);
+  TEST_ASSERT_EQUAL(expected_struct.stock,returned_struct.stock);
+  TEST_ASSERT_EQUAL(expected_struct.name,returned_struct.name);
+  TEST_ASSERT_EQUAL(expected_struct.mfg_date,returned_struct.mfg_date);
+  TEST_ASSERT_EQUAL(expected_struct.exp_date,returned_struct.exp_date);
+}
+/* Write all the test functions 
 void test_addentry(void) {
   CU_ASSERT(a == addentry(a));
   
- /* Dummy fail*/
+ /* Dummy fail
   CU_ASSERT(a == addentry(a));
 }
 
 void test_display(void) {
   CU_ASSERT(a == display(a,1));
   
-  /* Dummy fail*/
+  /* Dummy fail
   CU_ASSERT(1 == display(a,1));
 }
 
 void test_deleteentry(void) {
   CU_ASSERT(0 == deleteentry(a,2));
   
-  /* Dummy fail*/
+  /* Dummy fail
   CU_ASSERT(2 == deleteentry(c,4));
 }
-
+*/
 
