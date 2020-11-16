@@ -6,9 +6,11 @@
 #define PROJECT_NAME    "Medical_store_management_system"
 
 /* Prototypes for all the test functions */
+/*
 void test_addentry(void);
 void test_display(void);
 void test_deleteentry(void);
+*/
 
 /* Start of the application test */
 int main() {
@@ -21,9 +23,11 @@ int main() {
   
   
   /* Add your test functions in this format for testing*/
+  /*
   CU_add_test(suite, "add entry", test_addentry);
   CU_add_test(suite, "display", test_display);
   CU_add_test(suite, "delete entry", test_deleteentry);
+  */
 
 
 /* Note: Do not edit START*/
@@ -38,7 +42,7 @@ int main() {
 /* Note: Do not edit END */
   return 0;
 }
-
+/*
 struct medicine
 {
     int price,stock;
