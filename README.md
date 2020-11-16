@@ -5,6 +5,8 @@ This project plays a major role in saving the time of medical store operator for
 
 ![C/C++ CI](https://github.com/stepin105474/Miniproject_Template105474-Medical-store-management-system/workflows/C/C++%20CI/badge.svg)
 
+![Unit testing](https://github.com/stepin105474/Miniproject_Template105474-Medical-store-management-system/workflows/Unit%20testing/badge.svg)
+
 ![Code Quality Score](https://www.code-inspector.com/project/16207/score/svg)
 
 ![Code Grade](https://www.code-inspector.com/project/16207/status/svg)
